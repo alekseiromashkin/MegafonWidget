@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#27B86E</color>
+    <color name="colorPrimaryDark">#209158</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="megafon_appwidget__background_color">#d3ffffff</color>
+    <color name="megafon_appwidget__textColor">#222222</color>
+    <color name="megafon_appwidget_divider__background">#CDCDCD</color>
+    <color name="megafon_appwidget_progressbar_empty__color">#CDCDCD</color>
+</resources>

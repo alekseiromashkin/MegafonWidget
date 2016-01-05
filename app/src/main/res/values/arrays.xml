@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="megafon_appwidget__updatePeriodMillis_values">
+        <item>@string/megafon_appwidget__updatePeriodMillis_value_1min</item>
+        <item>@string/megafon_appwidget__updatePeriodMillis_value_5min</item>
+        <item>@string/megafon_appwidget__updatePeriodMillis_value_10min</item>
+        <item>@string/megafon_appwidget__updatePeriodMillis_value_30min</item>
+    </string-array>
+
+    <string-array name="megafon_appwidget__updatePeriodMillis_entries">
+        <item>@string/megafon_appwidget__updatePeriodMillis_entry_1min</item>
+        <item>@string/megafon_appwidget__updatePeriodMillis_entry_5min</item>
+        <item>@string/megafon_appwidget__updatePeriodMillis_entry_10min</item>
+        <item>@string/megafon_appwidget__updatePeriodMillis_entry_30min</item>
+    </string-array>
+</resources>

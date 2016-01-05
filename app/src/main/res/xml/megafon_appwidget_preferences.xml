@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/preference_title__authorization">
+
+        <EditTextPreference
+            android:key="@string/preference_key__username"
+            android:title="@string/preference_title__username"
+            android:dialogTitle="@string/preference_title__username" />
+
+        <EditTextPreference
+            android:key="@string/preference_key__password"
+            android:title="@string/preference_title__password"
+            android:dialogTitle="@string/preference_title__password"
+            android:inputType="textPassword"/>
+
+        <Preference
+            android:key="@string/preference_key__apply"
+            android:title="@string/preference_title__apply"
+            android:summary="@string/preference_summary__apply" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/preference_title__widget_settings">
+
+        <ListPreference
+            android:key="@string/preference_key__update_interval"
+            android:title="@string/preference_title__update_interval"
+            android:summary="@string/preference_summary__update_interval"
+            android:entries="@array/megafon_appwidget__updatePeriodMillis_entries"
+            android:entryValues="@array/megafon_appwidget__updatePeriodMillis_values"
+            android:dialogTitle="@string/preference_title__update_interval" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

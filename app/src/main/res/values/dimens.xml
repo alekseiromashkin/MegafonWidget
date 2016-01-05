@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="megafon_appwidget__minWidth">250dp</dimen>
+    <dimen name="megafon_appwidget__minHeight">250dp</dimen>
+    <dimen name="megafon_appwidget__padding">8dp</dimen>
+    <dimen name="megafon_appwidget__background_radius">1dp</dimen>
+    <dimen name="megafon_appwidget_elements__layout_marginTop">8dp</dimen>
+    <dimen name="megafon_appwidget_remainders__layout_marginTop">14dp</dimen>
+    <dimen name="megafon_appwidget_layout__padding">8dp</dimen>
+    <dimen name="megafon_appwidget_logo__layout_marginBottom">18dp</dimen>
+    <dimen name="megafon_appwidget__textSize">14sp</dimen>
+    <dimen name="megafon_appwidget_available__textSize">20sp</dimen>
+    <dimen name="megafon_appwidget_button_refresh__layout_marginLeft">8dp</dimen>
+    <dimen name="megafon_appwidget_divider__layout_height">1dp</dimen>
+    <dimen name="megafon_appwidget_progressbar__layout_height">6dp</dimen>
+
+    <dimen name="dialog_input_captcha__padding">10dp</dimen>
+    <dimen name="input_captcha__layout_marginTop">5dp</dimen>
+</resources>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MegafonWidget</string>
+    <string name="settings">Настройки</string>
+    <string name="ok">Погнали</string>
+    <string name="cancel">Отмена</string>
+    <string name="input_captcha">введите текст с картинки</string>
+    <string name="auth_in_progress">авторизация…</string>
+    <string name="wait_message">это может занять несколько секунд</string>
+    <string name="today_available">Доступно на сегодня:</string>
+    <string name="bonuses">Бонусные баллы:</string>
+    <string name="phone_number">Номер телефона:</string>
+    <string name="no_data">Нет данных</string>
+
+    <string name="megafon_appwidget__updatePeriodMillis_entry_1min">1 минута</string>
+    <string name="megafon_appwidget__updatePeriodMillis_entry_5min">5 минут</string>
+    <string name="megafon_appwidget__updatePeriodMillis_entry_10min">10 минут</string>
+    <string name="megafon_appwidget__updatePeriodMillis_entry_30min">30 минут</string>
+    <string name="megafon_appwidget__updatePeriodMillis_value_1min">60000</string>
+    <string name="megafon_appwidget__updatePeriodMillis_value_5min">300000</string>
+    <string name="megafon_appwidget__updatePeriodMillis_value_10min">600000</string>
+    <string name="megafon_appwidget__updatePeriodMillis_value_30min">1800000</string>
+
+    <string name="preference_key__username">preference.username</string>
+    <string name="preference_key__password">preference.password</string>
+    <string name="preference_key__update_interval">preference.update_interval</string>
+    <string name="preference_key__apply">preference.apply</string>
+    <string name="preference_title__authorization">Авторизация</string>
+    <string name="preference_title__widget_settings">Настройки виджета</string>
+    <string name="preference_title__username">Имя пользователя</string>
+    <string name="preference_title__password">Пароль</string>
+    <string name="preference_title__update_interval">Интервал обновления</string>
+    <string name="preference_title__apply">Авторизация</string>
+    <string name="preference_summary__update_interval">Интервал обновления виджета в минутах</string>
+    <string name="preference_summary__apply">Авторизоваться и применить настройки</string>
+</resources>

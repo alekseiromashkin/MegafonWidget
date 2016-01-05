@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="megafon_appwidget__updatePeriodMillis_1min">60000</integer>
+    <integer name="megafon_appwidget__updatePeriodMillis_5min">300000</integer>
+    <integer name="megafon_appwidget__updatePeriodMillis_10min">600000</integer>
+    <integer name="megafon_appwidget__updatePeriodMillis_30min">1800000</integer>
+</resources>

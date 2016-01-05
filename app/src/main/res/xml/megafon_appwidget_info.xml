@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="@dimen/megafon_appwidget__minWidth"
+    android:minHeight="@dimen/megafon_appwidget__minHeight"
+    android:updatePeriodMillis="0"
+    android:previewImage="@mipmap/ic_launcher"
+    android:initialLayout="@layout/megafon_appwidget"
+    android:configure="su.ias.megafonwidget.MegafonAppWidgetConfigure"
+    android:resizeMode="none"
+    android:widgetCategory="home_screen">
+</appwidget-provider>

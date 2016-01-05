@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/megafon_appwidget__padding">
+
+    <LinearLayout
+        android:id="@+id/widget_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/megafon_appwidget__background"
+        android:orientation="vertical"
+        android:padding="@dimen/megafon_appwidget_layout__padding">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/megafon_appwidget_logo__layout_marginBottom"
+            android:background="@null"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_megafon_logo"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/MegafonAppwidget.SimpleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/today_available"/>
+
+            <TextView
+                android:id="@+id/text_available"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/no_data"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/megafon_appwidget_available__textSize"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/megafon_appwidget_button_refresh__layout_marginLeft">
+
+                <ProgressBar
+                    android:id="@+id/progress_spinner"
+                    style="?android:attr/progressBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"/>
+
+                <ImageButton
+                    android:id="@+id/button_refresh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:scaleType="centerInside"
+                    android:visibility="invisible"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_refresh_green_18dp"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/megafon_appwidget_elements__layout_marginTop"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/MegafonAppwidget.SimpleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bonuses"/>
+
+            <TextView
+                android:id="@+id/text_bonuses"
+                style="@style/MegafonAppwidget.SimpleTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/no_data"/>
+
+        </LinearLayout>
+
+        <include layout="@layout/widget_divider"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/megafon_appwidget_elements__layout_marginTop"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/MegafonAppwidget.SimpleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phone_number"/>
+
+            <TextView
+                android:id="@+id/text_phone"
+                style="@style/MegafonAppwidget.SimpleTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/no_data"/>
+
+        </LinearLayout>
+
+        <include layout="@layout/widget_divider"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/list_reminders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"/>
+
+            <include layout="@layout/empty_view"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
